@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { BackGround } from "./components/BackGround";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
       </div>
       <div className="" id="projects">
         <Projects/>
-
       </div>
+      <Footer />
     </>
   );
 }

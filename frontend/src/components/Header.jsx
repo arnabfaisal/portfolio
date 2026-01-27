@@ -39,7 +39,7 @@ export function Header() {
           <div className="flex items-center gap-3">
             <NavbarButton
               variant="secondary"
-              href="https://github.com/yourusername"
+              href="https://github.com/arnabfaisal"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2"
@@ -49,7 +49,7 @@ export function Header() {
 
             <NavbarButton
               variant="secondary"
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/fahim-faisal-arnab-75025524b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2"
@@ -59,7 +59,7 @@ export function Header() {
 
             <NavbarButton
               variant="secondary"
-              href="mailto:your.email@example.com"
+              href="mailto:fahimfaisalarnab@gmail.com"
               className="p-2"
             >
               <IconMail size={20} />
