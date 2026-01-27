@@ -4,6 +4,8 @@ import { WavyBackground } from "./ui/wavy-background";
 import { Typer } from "./Typer";
 import { PixelatedCanvas } from "./ui/pixelated-canvas";
 
+import profileImg from "../assets/arnabRemove.png";
+
 export function BackGround() {
   return (
     <WavyBackground
@@ -29,7 +31,7 @@ export function BackGround() {
         {/* Right: Image (desktop only) */}
         <div className="hidden md:flex justify-center">
           <PixelatedCanvas
-            src="../arnabRemove.png"
+            src={profileImg}
             shape="circle"
             className="md:size-80 rounded-full object-cover shadow-xl"
             backgroundColor=""

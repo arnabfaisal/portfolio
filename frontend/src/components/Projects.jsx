@@ -4,6 +4,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 
+import demoImg from "../assets/demo.png"
+
 export function Projects(){
   const projects = [
     {
@@ -11,7 +13,7 @@ export function Projects(){
       description: "A web application that allows users to search for doctors along with detailed consultation cost information.",
       tech: ["SQL", "React.js", "Node.js"],
       link: "https://github.com/arnabfaisal/DoctorFinder",
-      image: "/demo.png",
+      image: demoImg,
       imageAlt: "Doctor Finder Web App Dashboard",
     },
     {
@@ -19,7 +21,7 @@ export function Projects(){
       description: "An endless runner-style game where players jump into a box to avoid rising water levels.",
       tech: ["Python", "OpenGL"],
       link: "https://github.com/arnabfaisal/Escape-From-Drowning",
-      image: "/demo.png",
+      image: demoImg,
       imageAlt: "Escape from Drowning Game Screenshot",
     },
     {
@@ -27,7 +29,7 @@ export function Projects(){
       description: "A full-stack expense tracking system with categorization, reports, and data visualization.",
       tech: ["Django Rest Framework", "React"],
       link: "https://github.com/arnabfaisal/expense-tracker",
-      image: "/demo.png",
+      image: demoImg,
       imageAlt: "Expense Tracker Dashboard",
     },
     {
@@ -35,7 +37,7 @@ export function Projects(){
       description: "A command-line personal finance tracker built with Python OOP principles.",
       tech: ["Python (OOP)"],
       link: "https://github.com/arnabfaisal/cli-personal-finance",
-      image: "/demo.png",
+      image: demoImg,
       imageAlt: "CLI Expense Tracker in Terminal",
     },
   ];
