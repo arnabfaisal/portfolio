@@ -95,7 +95,7 @@ export function Header() {
             {/* Mobile social links */}
             <div className="mt-6 flex flex-col gap-4 w-full">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/arnabfaisal"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -106,7 +106,7 @@ export function Header() {
               </a>
 
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/fahim-faisal-arnab-75025524b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -117,7 +117,7 @@ export function Header() {
               </a>
 
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:fahimfaisalarnab@gmail.com"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex items-center gap-3 rounded-lg bg-neutral-100 px-4 py-3 dark:bg-neutral-800"
               >
