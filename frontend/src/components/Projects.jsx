@@ -59,7 +59,7 @@ export function Projects(){
           {projects.map((project, index) => (
             <Card 
               key={index}
-              className="overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl group"
+              className="overflow-hidden border border-blue-500 hover:border-primary/50 transition-all duration-300 hover:shadow-xl group"
             >
               {/* Project Image */}
               <div className="relative overflow-hidden h-48 md:h-56">

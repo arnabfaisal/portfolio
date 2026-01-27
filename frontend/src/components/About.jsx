@@ -45,10 +45,10 @@ export function About(){
               ].map((tech) => (
                 <li
                   key={tech}
-                  className="flex items-center gap-3 bg-muted/40 px-5 py-4 rounded-xl border border-border hover:border-primary/50 transition-colors"
+                  className="flex items-center gap-3 bg-muted/40 px-5 py-4 rounded-xl border border-border hover:border-blue-500 transition-colors"
                 >
-                  <span className="text-primary">›</span>
-                  <span>{tech}</span>
+                  <span className="text-blue-500">›</span>
+                  <span className='text-purple-700'>{tech}</span>
                 </li>
               ))}
             </ul>
