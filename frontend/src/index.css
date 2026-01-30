@@ -117,7 +117,10 @@
 }
 
 @layer base {
-  html, body {
+  html, body, #root, #__next {
+      position: relative;   /* or position: fixed; if you want no body scroll at all */
+      min-height: 100vh;
+      height: 100%;
       font-family: var(--font-sans) !important;
     }
   * {
