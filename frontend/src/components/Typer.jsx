@@ -22,11 +22,11 @@ export function Typer() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]  ">
+    <div className="flex flex-col items-center md:items-start justify-center h-[40rem]  ">
       <div>
         <TypewriterEffectSmooth words={words} />
       </div>
-      <div>
+      <div className="space-y-6 md:space-y-10 text-base sm:text-lg md:text-xl leading-relaxed">
         <p>
           I'm a undergraduate CSE student based in Dhaka. I'm fascinated by large-scale, high-impact products and contributed to major feature launches in industry-leading services as well as apps that have 100M+ installs.
         </p>
